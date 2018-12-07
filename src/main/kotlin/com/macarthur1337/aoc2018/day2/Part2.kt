@@ -1,4 +1,4 @@
-package com.macarthur1337.aoc2018.problem2
+package com.macarthur1337.aoc2018.day2
 
 import org.springframework.util.ResourceUtils
 

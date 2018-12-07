@@ -1,4 +1,4 @@
-package com.macarthur1337.aoc2018.problem1
+package com.macarthur1337.aoc2018.day1
 
 import org.springframework.util.ResourceUtils
 import java.io.InputStream
