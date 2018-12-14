@@ -6,8 +6,6 @@ import org.springframework.util.ResourceUtils
  * @author N. E. Absil
  * @since 05-12-2018
  */
-data class Pair(val first: Char = ' ', val second: Char = ' ')
-
 fun main(args: Array<String>) {
     val lineList = mutableListOf<String>()
     ResourceUtils.getFile("classpath:input5")
