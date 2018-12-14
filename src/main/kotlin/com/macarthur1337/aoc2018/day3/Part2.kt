@@ -39,7 +39,8 @@ fun main(args: Array<String>) {
             }
         }
     }
-    println(conflicts.indexOfLast { !it })
+    println(conflicts.indexOfLast { !it }) //last because the first is the 0 index of the array
+    // which is unused
 }
 
 fun getClaim(line: String) : Int {
