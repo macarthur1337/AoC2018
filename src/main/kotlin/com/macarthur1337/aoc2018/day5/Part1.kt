@@ -21,6 +21,7 @@ fun main(args: Array<String>) {
         val current = line.next()
         when {
             polymers.size > 0 && reducePolymer(current, polymers.last()) -> {
+                //if the current and previous reduce, remove it from the list
                 polymers.removeAt(polymers.size - 1)
                 continue@loop
             }
